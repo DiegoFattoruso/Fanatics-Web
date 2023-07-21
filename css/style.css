@@ -356,7 +356,11 @@ textarea {
         width: auto;
         height: auto;
     }
-
+    .mapa{
+        width: 150px;
+        height: 150px;
+    }
+    
 
 }
 
