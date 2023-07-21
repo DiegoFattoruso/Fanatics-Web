@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Teko:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+header nav{
+    background-color: rgb(59, 59, 64);
+    
+}
+a.navbar-brand{
+    color: aqua !important;
+        
+}
+a.nav-link.active{
+    color:white !important;
+}
+a#navbarDropdown.nav-link.dropdown-toggle{
+    color: white !important;
+}
+/*----Hero Section----*/
+
+.hero{
+    background-image: url(../img/pexels-fondo.jpeg);
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.hero p{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-style: oblique;
+    border: 5px rgb(59, 59, 64);
+    padding: 15px;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+
+.hero a{
+    text-decoration: none;
+        
+}
+
+.sectiondos{
+    background-color: #f2f2f2;;
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    width: auto;
+    height: auto    
+}
+
+.sectiondos img{
+    width: 300px;
+    height: 250px;
+}
+
+.sectiondos .productos-contenedor{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sectiondos .tarjetas{
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    margin: top 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 5px 8px 12px black;
+    
+}
+
+.productos-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;    
+}
+
+.subtitulo{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0 0 20px;
+}
+
+.boton{
+    text-decoration: none;
+    background-color:  rgb(30, 32, 32);
+    color: white;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+
+
+
+.posicion{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+.posicion a i{
+    font-size: 40px;
+    color: black;
+}
+
+/***Footer***/
+
+footer{
+    background-color: rgb(59, 59, 64);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding: 5px 5%;
+        
+}
+
+.texto-footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+    
+}
+
+.redes a img{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+.medios-pago img{
+    height: 40px;
+    width: 40px;
+}
+.redes a i{
+    font-size: 30px;
+}
+
+
+/****Nosotros****/
+.color-fondo{
+    background-color: #f2f2f2;
+}
+
+h2{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+}
+
+.parrafo{
+    color: black;
+    
+    font-size: 1rem;
+    
+    margin: left 5%;
+    margin-right: 5%;
+    
+    
+}
+.img-2{
+    grid-column: span 2;
+}
+.img-3{
+    grid-column: span 2;
+}
+
+.img-7{
+    grid-row: span 2;
+}
+.grid-galeria{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 10px;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*****Contacto****/
+.direccion{
+    margin-bottom: 0;
+}
+.contacto{
+    text-align: center;
+    
+    margin-bottom: 0;
+
+}
+
+.hero-contacto {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+.section-mapa{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.mapa{
+    width: 350px;
+    height: 350px;
+        
+}
+
+/****Eventos*****/
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tarjetas-eventos{
+    margin: 0 150px;
+    margin-top: 5%;
+    
+    
+}
+.consulta-eventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+/****Nuestras Canchas*****/
+
+
+
+
+@media screen and (max-width:970px){
+    .footer-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .grid-galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 220px;
+                
+    }
+    .grid-item{
+        grid-column: span 1 ;
+        grid-row: span 1 ;
+    }
+    .img-9{
+        grid-column: span 2;
+            
+    }
+    .contendor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tarjetas-eventos {
+        margin: 10%;
+    }
+}
+
+
+@media screen and (max-width:750px){
+    footer div .navbar-brand{
+        font-size: 15px;        
+    }
+    footer div .texto-footer{
+        font-size: 15px;
+    }
+    .redes i {
+        font-size: 15px;
+    }
+    .subtitulo{
+        margin: 0;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:600px){
+    .grid-galeria{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 350px;
+    }
+    .footer-contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    .posicion{
+        display: none;
+        
+    }
+    
+}
+@media screen and (max-width:500px){
+    .section-mapa{
+        width: auto;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
