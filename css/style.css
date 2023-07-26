@@ -166,16 +166,7 @@ h2{
     margin-bottom: 0;
 }
 
-.parrafo{
-    color: black;
-    
-    font-size: 1rem;
-    
-    margin: left 5%;
-    margin-right: 5%;
-    
-    
-}
+
 .img-2{
     grid-column: span 2;
 }
@@ -267,8 +258,6 @@ textarea {
 
 .tarjetas-eventos{
     margin: 0 150px;
-    margin-top: 5%;
-    
     
 }
 .consulta-eventos{
@@ -278,6 +267,9 @@ textarea {
     align-items: center;
     margin-bottom: 15px;
 
+}
+section div .parrafo{
+    margin: 5%;
 }
 
 /****Nuestras Canchas*****/
