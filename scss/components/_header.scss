@@ -1,0 +1,18 @@
+header{
+    nav{
+    background-color: $color-cuaternario;
+    }
+}
+
+a.navbar-brand {
+    color: aqua !important;
+}
+
+
+a.nav-link.active {
+    color: $color-secundario !important;
+}
+
+a#navbarDropdown.nav-link.dropdown-toggle {
+    color: $color-secundario !important;
+}

@@ -194,6 +194,32 @@ h2{
     object-fit: cover;
 }
 
+
+/****Eventos*****/
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tarjetas-eventos{
+    margin: 0 150px;
+    
+}
+.consulta-eventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+section div .parrafo{
+    margin: 5%;
+}
+
 /*****Contacto****/
 .direccion{
     margin-bottom: 0;
@@ -247,30 +273,7 @@ textarea {
         
 }
 
-/****Eventos*****/
 
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-}
-
-.tarjetas-eventos{
-    margin: 0 150px;
-    
-}
-.consulta-eventos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-
-}
-section div .parrafo{
-    margin: 5%;
-}
 
 /****Nuestras Canchas*****/
 

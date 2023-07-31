@@ -1,0 +1,85 @@
+@media screen and (max-width: 970px) {
+    .footer-contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+        .grid-item{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        .grid-item .img-9 {
+            grid-column: span 2;
+        }
+    }
+}
+
+    .contendor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .tarjetas-eventos{
+            margin: 10%;
+        }
+    }
+
+
+@media screen and (max-width: 750px) {
+    footer div .navbar-brand {
+        font-size: 15px;
+    }
+
+    .footer-contenedor {
+        div{
+            .texto-footer{
+                font-size: 15px;
+            }
+        }
+    }
+    .sectiondos{
+        div{
+            .subtitulo{
+                margin: 0;
+                font-size: 40px;
+            }
+        }
+    }
+    
+    
+}
+@media screen and (max-width:600px){
+    .grid-galeria{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 350px;
+    }
+    .footer-contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    .posicion{
+        display: none;
+        
+    }
+    
+}
+@media screen and (max-width:500px){
+    .section-mapa{
+        width: auto;
+        height: auto;
+        div{
+            .mapa{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}

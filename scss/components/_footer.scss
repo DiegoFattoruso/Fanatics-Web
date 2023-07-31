@@ -1,0 +1,20 @@
+/***Footer***/
+
+.footer-contenedor {
+    background-color: $color-cuaternario;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding: 5px 5%;
+    div{
+        .texto-footer{
+            color: $color-secundario;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 16px;                           
+        }        
+    }
+    
+}
