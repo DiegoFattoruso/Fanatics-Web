@@ -9,7 +9,7 @@
     background-attachment: fixed;
     text-align: center;
     p{
-        color:$color-secundario;
+        color: white;
         font-size: 3rem;
         font-family: sans-serif;
         font-style: oblique;        
@@ -20,7 +20,7 @@
 }
 
 .sectiondos {
-    background-color: $color-terciario;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -41,11 +41,11 @@
         .tarjetas{
             width: 350px;
             height: 350px;
-            border: 3px solid $color-primario;
+            border: 3px solid black;
             margin-top: 15px;
             margin-bottom: 20px;
             text-align: center;
-            box-shadow: 5px 8px 12px $color-primario;
+            box-shadow: 5px 8px 12px black;
             img{
                 width: 300px;
                 height: 250px;
@@ -62,7 +62,7 @@
 }
 
 .section-mapa {
-    background-color: $color-terciario;
+    background-color:  #f2f2f2;
     text-align: center;
     .mapa{
         width: 350px;
@@ -77,13 +77,16 @@
     a {
         i{
             font-size: 40px;
-            color: $color-primario;
+            color: black;
         }
     }
     
 }
 
 /****Nosotros****/
+.color-fondo {
+    background-color: #f2f2f2;
+}
 
 
 .grid-galeria {
@@ -149,7 +152,7 @@ section{
     }
 }
 .hero-contacto{
-    background-color: $color-terciario;
+    background-color:#f2f2f2;
     padding: 20px;
     .formulario{
         max-width: 400px;
@@ -167,7 +170,7 @@ section{
     }
 }
 .section-mapa{
-    background-color: $color-terciario;
+    background-color:#f2f2f2;
     text-align: center;
     div{
         .mapa{
@@ -176,6 +179,7 @@ section{
         }
     }
 }
+
 
 
 

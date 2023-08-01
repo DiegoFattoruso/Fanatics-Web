@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Teko:wght@500;600&display=swap');
 
+//* Reset
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
-.color-fondo {
-    background-color: #f2f2f2;
+
+
+section{
+    div{
+        .parrafo{
+            margin: 5%;
+        }
+    }
 }
 
-.parrafo{
-    margin: 5%;
-}
+
 
 h2 {
     font-family: 'Teko', sans-serif;
@@ -21,6 +27,8 @@ h2 {
     background-color: #f2f2f2;
     margin-bottom: 0;
 }
+
+//*Formulario
 
 input[type="text"],
 input[type="number"],

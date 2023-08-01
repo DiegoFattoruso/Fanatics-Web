@@ -4,10 +4,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-.color-fondo {
-  background-color: #f2f2f2; }
-
-.parrafo {
+section div .parrafo {
   margin: 5%; }
 
 h2 {
@@ -109,6 +106,9 @@ a#navbarDropdown.nav-link.dropdown-toggle {
     color: black; }
 
 /****Nosotros****/
+.color-fondo {
+  background-color: #f2f2f2; }
+
 .grid-galeria {
   margin-top: 40px;
   margin-left: 10%;
