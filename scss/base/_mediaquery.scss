@@ -23,15 +23,17 @@
     }
 }
 
-    .contendor {
+@media screen and (max-width: 800px){
+    .contenedor {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        .tarjetas-eventos{
-            margin: 10%;
-        }
+        align-items: center;
+        justify-content: center;     
+        font-size: 12px;
+        
     }
-
+    
+}
 
 @media screen and (max-width: 750px) {
     footer div .navbar-brand {
@@ -45,9 +47,17 @@
             }
         }
     }
+    section{
+        div{
+            .titulo{
+                margin: 0;
+                font-size: 60px;
+                    }
+        }
+    }
     .sectiondos{
         div{
-            .subtitulo{
+            .titulo{
                 margin: 0;
                 font-size: 40px;
             }
@@ -55,6 +65,7 @@
     }
     
     
+        
 }
 @media screen and (max-width:600px){
     .grid-galeria{

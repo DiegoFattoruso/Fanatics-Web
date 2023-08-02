@@ -4,15 +4,14 @@
   padding: 0;
   box-sizing: border-box; }
 
-section div .parrafo {
-  margin: 5%; }
-
-h2 {
+section div .titulo {
   font-family: 'Teko', sans-serif;
   text-align: center;
   font-size: 80px;
-  background-color: #f2f2f2;
   margin-bottom: 0; }
+
+section div .parrafo {
+  margin: 5%; }
 
 input[type="text"],
 input[type="number"],
@@ -62,11 +61,11 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   text-align: center;
   width: auto;
   height: auto; }
-  .sectiondos .subtitulo {
+  .sectiondos .titulo {
     font-family: 'Teko', sans-serif;
     text-align: center;
-    font-size: 60px;
-    margin: 50px 0 0 20px; }
+    font-size: 80px;
+    margin-bottom: 0; }
   .sectiondos .productos-contenedor {
     display: flex;
     justify-content: space-around;
@@ -130,13 +129,16 @@ a#navbarDropdown.nav-link.dropdown-toggle {
     grid-row: span 2; }
 
 /****Eventos*****/
-section .contenedor {
+.contenedor {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-  section .contenedor .tarjetas-eventos {
-    margin: 0 150px; }
+  .contenedor .tarjetas-eventos {
+    margin: 0 150px;
+    margin-bottom: 20px; }
+    .contenedor .tarjetas-eventos .subtitulo {
+      font-size: 40px; }
 
 section .consulta-eventos {
   display: flex;
@@ -204,19 +206,23 @@ section .contacto {
     .grid-galeria .grid-item .img-9 {
       grid-column: span 2; } }
 
-.contendor {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .contendor .tarjetas-eventos {
-    margin: 10%; }
+@media screen and (max-width: 800px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; } }
 
 @media screen and (max-width: 750px) {
   footer div .navbar-brand {
     font-size: 15px; }
   .footer-contenedor div .texto-footer {
     font-size: 15px; }
-  .sectiondos div .subtitulo {
+  section div .titulo {
+    margin: 0;
+    font-size: 60px; }
+  .sectiondos div .titulo {
     margin: 0;
     font-size: 40px; } }
 

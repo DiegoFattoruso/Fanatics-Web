@@ -1,6 +1,6 @@
 header{
     nav{
-    background-color: rgb(59, 59, 64);
+    background-color: $color-terciario;
     }
 }
 
@@ -10,9 +10,9 @@ a.navbar-brand {
 
 
 a.nav-link.active {
-    color:  white !important;
+    color: $color-secundario !important;
 }
 
 a#navbarDropdown.nav-link.dropdown-toggle {
-    color:  white !important;
+    color:  $color-secundario !important;
 }

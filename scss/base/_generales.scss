@@ -8,6 +8,17 @@
     box-sizing: border-box;
     
 }
+section{
+    div{
+        .titulo{
+            font-family: 'Teko', sans-serif;
+            text-align: center;
+            font-size: 80px;
+            margin-bottom: 0;
+        }
+    }
+}
+
 
 
 section{
@@ -19,14 +30,6 @@ section{
 }
 
 
-
-h2 {
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    font-size: 80px;
-    background-color: #f2f2f2;
-    margin-bottom: 0;
-}
 
 //*Formulario
 

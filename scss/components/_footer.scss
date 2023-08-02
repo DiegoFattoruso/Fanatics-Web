@@ -1,7 +1,7 @@
 /***Footer***/
 
 .footer-contenedor {
-    background-color: rgb(59, 59, 64);
+    background-color:$color-terciario;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -10,7 +10,7 @@
     padding: 5px 5%;
     div{
         .texto-footer{
-            color:  white;
+            color:  $color-secundario;
             font-size: 20px;
             text-align: center;
             margin-top: 16px;                           
