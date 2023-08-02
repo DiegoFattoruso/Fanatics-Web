@@ -120,26 +120,21 @@
 /****Eventos*****/
 
 .contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     .tarjetas-eventos{
         margin: 0 150px;
         
         margin-bottom: 20px;
         .subtitulo{
                 font-size: 40px;
+                font-family:serif;
             }
         }
     }
 
 section{
     .consulta-eventos{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         margin-bottom: 15px;
     }
 }

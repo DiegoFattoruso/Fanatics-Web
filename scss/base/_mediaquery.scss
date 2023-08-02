@@ -15,10 +15,11 @@
         grid-auto-rows: 220px;
         .grid-item{
             grid-column: span 1;
-            grid-row: span 1;
+            grid-row: span 1;    
         }
-        .grid-item .img-9 {
+        .img-9{
             grid-column: span 2;
+                
         }
     }
 }

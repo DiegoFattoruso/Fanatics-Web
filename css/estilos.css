@@ -24,6 +24,12 @@ textarea {
 textarea {
   resize: vertical; }
 
+.contenedor, section .consulta-eventos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
 header nav {
   background-color: #3b3b40; }
 
@@ -129,22 +135,14 @@ a#navbarDropdown.nav-link.dropdown-toggle {
     grid-row: span 2; }
 
 /****Eventos*****/
-.contenedor {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  .contenedor .tarjetas-eventos {
-    margin: 0 150px;
-    margin-bottom: 20px; }
-    .contenedor .tarjetas-eventos .subtitulo {
-      font-size: 40px; }
+.contenedor .tarjetas-eventos {
+  margin: 0 150px;
+  margin-bottom: 20px; }
+  .contenedor .tarjetas-eventos .subtitulo {
+    font-size: 40px;
+    font-family: serif; }
 
 section .consulta-eventos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 15px; }
 
 /*****Contacto****/
@@ -203,7 +201,7 @@ section .contacto {
     .grid-galeria .grid-item {
       grid-column: span 1;
       grid-row: span 1; }
-    .grid-galeria .grid-item .img-9 {
+    .grid-galeria .img-9 {
       grid-column: span 2; } }
 
 @media screen and (max-width: 800px) {
