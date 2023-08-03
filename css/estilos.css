@@ -93,7 +93,13 @@ a#navbarDropdown.nav-link.dropdown-toggle {
         background-color: #1e2020;
         color: white;
         padding: 10px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        font-style: bold;
+        transition-property: background-color;
+        transition-duration: 0.4s; }
+      .sectiondos .productos-contenedor .tarjetas .boton:hover {
+        background-color: aqua;
+        color: black; }
 
 .section-mapa {
   background-color: #f2f2f2;
@@ -106,9 +112,13 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   position: fixed;
   bottom: 80px;
   right: 50px; }
-  .posicion a i {
-    font-size: 40px;
-    color: black; }
+  .posicion a img {
+    width: 50px;
+    height: 50px;
+    color: black;
+    transition: transform 0.3s; }
+  .posicion a img:hover {
+    transform: scale(1.1); }
 
 /****Nosotros****/
 .color-fondo {
