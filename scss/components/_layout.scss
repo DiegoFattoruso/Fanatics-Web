@@ -15,7 +15,7 @@
         font-style: oblique;        
         padding: 15px;
         display: inline-block;
-        margin-top: 15%;
+        margin-top: 18%;
         }
 }
 
@@ -148,12 +148,21 @@ section{
     .consulta-eventos{
         @extend %flex;
         margin-bottom: 15px;
+        .boton{
+                text-decoration: none;
+                background-color: rgb(30, 32, 32);
+                color: $color-secundario;
+                padding: 10px;
+                border-radius: 10px;
+                font-style: bold;
+                transition-property: background-color;
+                transition-duration: 0.4s;}
+        .boton:hover{
+                background-color: aqua;
+                color:$color-primario;}
+
     }
 }
-
-
-
-
 
 /*****Contacto****/
 
