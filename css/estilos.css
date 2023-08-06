@@ -128,6 +128,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   margin-top: 40px;
   margin-left: 10%;
   margin-bottom: 0px;
+  margin-bottom: 10px;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
