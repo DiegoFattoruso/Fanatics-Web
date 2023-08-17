@@ -4,8 +4,8 @@ $color-terciario: rgb(59, 59, 64);
 $color-cuaternario: #f2f2f2;
 
 $font-size: 3rem,
-    40px,
-    60px;
+            40px,
+            60px;
 
 
 
@@ -14,4 +14,9 @@ $font-size: 3rem,
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@mixin tamaño($width, $height) {
+    width: $width;
+    height: $height;
 }
